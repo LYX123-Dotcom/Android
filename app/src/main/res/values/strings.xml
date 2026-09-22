@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">Li Yinxiang 2024110519 English Version</string>
-    <string name="btn_text">Click Me</string>
+    <!-- 英文（默认语言）。APP 标题按要求用"姓名+学号" -->
+    <string name="app_name">Li Yinxiang 2024110519</string>
+    <!-- 未点击按钮时显示 -->
     <string name="tip_text">Hello World</string>
+    <!-- 按钮文字 -->
+    <string name="btn_text">Click Me</string>
+    <!-- 点击按钮后显示 -->
     <string name="click_msg">I was clicked</string>
 </resources>

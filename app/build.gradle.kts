@@ -26,7 +26,8 @@ android {
         }
     }
     buildFeatures {
-        viewBinding = true
+        // 界面全部用纯代码实现，不使用 layout 布局文件，所以关闭 ViewBinding
+        viewBinding = false
     }
 
     compileOptions {
