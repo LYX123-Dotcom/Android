@@ -3,13 +3,21 @@ plugins {
 }
 
 android {
+
     namespace = "cn.edu.sicnu.cs.lyx.android2"
+
+    namespace = "cn.edu.sicnu.cs.lyx.First"
+
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
+
         applicationId = "cn.edu.sicnu.cs.lyx.android2"
+
+        applicationId = "cn.edu.sicnu.cs.lyx.First"
+
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -26,7 +34,12 @@ android {
         }
     }
     buildFeatures {
+
         viewBinding = true
+
+        // 界面全部用纯代码实现，不使用 layout 布局文件，所以关闭 ViewBinding
+        viewBinding = false
+
     }
 
     compileOptions {

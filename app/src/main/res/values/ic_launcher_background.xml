@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 更换 APP 图标：自适应图标的底色，白色地球线稿放在这个蓝色底上 -->
+    <color name="ic_launcher_background">#1565C0</color>
+</resources>

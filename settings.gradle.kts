@@ -22,5 +22,9 @@ dependencyResolutionManagement {
     }
 }
 
+
 rootProject.name = "android2"
+
+rootProject.name = "First"
+
 include(":app")

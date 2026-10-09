@@ -1,9 +1,23 @@
+<<<<<<< HEAD
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    实验要求 (2b)：更换 APP 图标。
+    这里没有用 Android Studio 的 Image Asset 向导生成位图，而是直接自己画了一个
+    "地球 / Hello World" 的矢量图标（VectorDrawable），好处是任意分辨率都清晰、
+    体积只有 1 KB 左右，而且改颜色改线条都很方便。
+    自适应图标（API 26+）的可见安全区是以 108×108 画布中心为圆心、直径 66dp 的圆，
+    因此图案控制在 24~84 这个 60dp 的范围内。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 5c7958fe0f8d6fec4f5a9fb68b1cac6129de503c
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+<<<<<<< HEAD
     <path android:pathData="M31,63.928c0,0 6.4,-11 12.1,-13.1c7.2,-2.6 26,-1.4 26,-1.4l38.1,38.1L107,108.928l-32,-1L31,63.928z">
         <aapt:attr name="android:fillColor">
             <gradient
@@ -28,3 +42,43 @@
         android:strokeWidth="1"
         android:strokeColor="#00000000" />
 </vector>
+=======
+
+    <!-- 地球外圆：圆心 (54,54)，半径 30 -->
+    <path
+        android:pathData="M54,24 a30,30 0 1,0 0,60 a30,30 0 1,0 0,-60 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- 经线：竖椭圆，两端正好落在外圆的南北极上 -->
+    <path
+        android:pathData="M40,54 a14,30 0 1,0 28,0 a14,30 0 1,0 -28,0 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- 赤道 -->
+    <path
+        android:pathData="M24,54 L84,54"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+
+    <!-- 北纬线 -->
+    <path
+        android:pathData="M28,39 L80,39"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+
+    <!-- 南纬线 -->
+    <path
+        android:pathData="M28,69 L80,69"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+</vector>
+>>>>>>> 5c7958fe0f8d6fec4f5a9fb68b1cac6129de503c

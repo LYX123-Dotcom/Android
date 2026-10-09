@@ -1,0 +1,10 @@
+<resources>
+    <!-- 中文。APP 标题按要求用"姓名+学号" -->
+    <string name="app_name">李银祥2024110519</string>
+    <!-- 未点击按钮时显示 -->
+    <string name="tip_text">你好，世界!</string>
+    <!-- 按钮文字 -->
+    <string name="btn_text">点击我!</string>
+    <!-- 点击按钮后显示 -->
+    <string name="click_msg">我被点击了!</string>
+</resources>

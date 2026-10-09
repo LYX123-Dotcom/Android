@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Android2" parent="Theme.Material3.DayNight.NoActionBar">
@@ -7,3 +8,10 @@
 
     <style name="Theme.Android2" parent="Base.Theme.Android2" />
 </resources>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.First" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </style>
+</resources>
+>>>>>>> 5c7958fe0f8d6fec4f5a9fb68b1cac6129de503c

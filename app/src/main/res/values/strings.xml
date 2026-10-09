@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">李银祥2024110519</string>
 
     <string name="region1_title">区1：动态添加 TextView</string>
@@ -15,4 +16,14 @@
     <string name="advice_android">Android 是基于 Linux 内核的开源移动操作系统，由 Google 主导开发。</string>
     <string name="advice_mvc">MVC 即 Model-View-Controller：Model 负责数据、View 负责界面、Controller 负责逻辑，三者解耦。</string>
     <string name="advice_not_found">没有查到相关建议，试试输入：kotlin / java / android / mvc</string>
+
+
+    <string name="app_name">Li Yinxiang 2024110519</string>
+    <!-- 未点击按钮时显示 -->
+    <string name="tip_text">Hello World</string>
+    <!-- 按钮文字 -->
+    <string name="btn_text">Click Me</string>
+    <!-- 点击按钮后显示 -->
+    <string name="click_msg">I was clicked</string>
+
 </resources>
