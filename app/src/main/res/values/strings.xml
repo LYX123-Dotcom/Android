@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">李银祥2024110519</string>
+
+    <string name="region1_title">区1：动态添加 TextView</string>
+    <string name="btn_add_textview">添加 TextView</string>
+    <string name="new_textview_fmt">This is a new TextView %1$d</string>
+
+    <string name="region2_title">区2：ProgramAdviser（MVC）</string>
+    <string name="edit_query_hint">请输入要查询的内容，如 kotlin</string>
+    <string name="btn_query">查询</string>
+    <string name="result_default">查询结果显示在这里</string>
+
+    <string name="advice_kotlin">Kotlin 是 Google 推荐的 Android 首选开发语言，简洁、安全、务实，值得深入学习！</string>
+    <string name="advice_java">Java 是 Android 的传统开发语言，生态成熟、资料丰富，是进阶的好基础。</string>
+    <string name="advice_android">Android 是基于 Linux 内核的开源移动操作系统，由 Google 主导开发。</string>
+    <string name="advice_mvc">MVC 即 Model-View-Controller：Model 负责数据、View 负责界面、Controller 负责逻辑，三者解耦。</string>
+    <string name="advice_not_found">没有查到相关建议，试试输入：kotlin / java / android / mvc</string>
+</resources>
